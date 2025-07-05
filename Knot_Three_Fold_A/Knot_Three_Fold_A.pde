@@ -21,10 +21,6 @@ void draw() {
   
   for (int i=0; i<100; i++) {
     
-    float nx = x;
-    float ny = y;
-    float nz = z;
-    
     x = (2.0 + cos(a * t)) * cos(t);
     y = (2.0 + cos(b * t)) * sin(t);
     z = sin(c * t);

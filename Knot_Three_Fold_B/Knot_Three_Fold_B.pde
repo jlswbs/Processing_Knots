@@ -18,10 +18,6 @@ void draw() {
   
   for (int i=0; i<100; i++) {
     
-    float nx = x;
-    float ny = y;
-    float nz = z;
-    
     x = -10.0 * cos(t) - 2.0 * cos(5.0 * t) + 15.0 * sin(2.0 * t);
     y = -15.0 * cos(2.0 * t) + 10.0 * sin(t) - 2.0 * sin(5.0 * t);
     z = 10.0 * cos(3.0 * t);
